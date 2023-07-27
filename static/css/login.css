@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#loginform {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+   height: 650px;
+   
+}
+ #loginformsub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 35%;
+    height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#loginformsub img{
+height: 50px;
+width: 50px;
+border-radius: 25px;
+border: 1px solid black;
+}
+#loginformsub h3{
+    font-size: 2.2rem;
+    margin-top:7px;
+}
+#loginformsub h4{
+    font-size: 1.4rem;
+    margin-top:5pxpx;
+    
+}
+form{
+    
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    margin:30px;
+    width:70%;
+}
+form label{
+    margin:5px;
+}
+form input{
+     width:100%;
+     margin-bottom:10px;
+     padding:3px;
+}
+.btn2{
+    margin-top:20px;
+    color:white;
+    background:rgb(66, 65, 65);
+    cursor: pointer;
+    padding:7px;
+    font-weight: bold;
+    font-size:1.01rem;
+}
+.btn2:hover{
+background:rgb(42, 42, 42);
+
+}
+ .alogin {
+    font-size: .8rem;
+    margin:7px auto;
+    
+}

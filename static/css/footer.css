@@ -1,0 +1,49 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+    
+
+}
+.leftf{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    
+
+}
+.leftf img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left:20px ;
+}
+.leftf h3{
+      margin-left: 10px;
+      margin-right:10px ;
+}
+.leftf h5{
+      margin-left: 10px;
+      margin-right:10px ;
+}
+.rightf{
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    
+    position: absolute;
+    right: 15px;
+}
+ .rightf a{
+    font-size:1.3rem;
+     margin-right: 30px;
+     margin-left: 30px;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | LearnFinity</title>
+    <link rel="styleSheet" href="signup.css">
+</head>
+<body>
+    {{>nav}}
+    <section id="signupform">
+        <div id="signupformsub">
+            <img src="logo.png">
+            <h3>Welcome To LearnFinity.com</h3>
+            <form action="/signup" method="POST" class="signup">
+                <label for="name">Name</label>
+                <input type="name" id="name" name="Sname">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="Semail">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="spassword">
+                <label for="confirmpas">Confirm Password</label>
+                <input type="password" id="confirmpas" name="Scpassword">
+                <input type="submit" class="btn2" value="Register">
+                <a  class="asignup" href="/login">OR LOGIN</a>
+            </form>
+        </div>
+    </section>
+    {{>footer}}
+</body>
+</html>

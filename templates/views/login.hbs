@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width={device-width}, initial-scale=1.0">
+    <title>Login | Learnfinity</title>
+    <link href="login.css" rel="styleSheet">
+</head>
+
+<body>
+    {{>nav}}
+    <section id="loginform">
+        <div id="loginformsub">
+            <img src="logo.png">
+            <h3>LearnFinity.com</h3>
+            <h4>Welcome back!</h4>
+            <form action="/login" method="POST" class="login">
+                <label for="email" >Email Address</label>
+                <input type="email" id="email" name="lemail">
+                <label for="password" >Password</label>
+                <input type="password" id="password" name="lpassword">
+                <input type="submit" class="btn2" value="Login">
+                <a  class="alogin" href="/signup">OR SIGNUP</a>
+            </form>
+        </div>
+    </section>
+    {{>footer}}
+</body>
+
+</html>
